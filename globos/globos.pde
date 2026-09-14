@@ -1,6 +1,6 @@
 class Globo
 {
-  float x, y,vx,vy;
+  float x, y,vx,vy,ay; //CUARTA MODIFICACION
   Globo (float _x, float _y)
   {
    x=_x;
@@ -30,6 +30,7 @@ void setup()
 {
   size(640,480);
   globos = new ArrayList<Globo>();  
+  println("ARRANCA PROGRAMA"); //Quinto cambio
 }
 
 void draw() 
