@@ -17,7 +17,7 @@ class Globo
 
   void dibujate()
   {
-      ellipse(x,y,100,100);
+      ellipse(x,y,80,100);
   }
   
 }
@@ -25,13 +25,13 @@ class Globo
 ArrayList<Globo> globos;
 
 
-void setup()
+void setup() 
 {
   size(640,480);
   globos = new ArrayList<Globo>();  
 }
 
-void draw()
+void draw() 
 {
   background(0);
   for(int i=0;i<globos.size();i++)
