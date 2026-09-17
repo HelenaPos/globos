@@ -35,7 +35,11 @@ void setup()
 
 void draw() 
 {
+<<<<<<< HEAD
   background(60,20,200); //SEGUNDA MODIFICACION
+=======
+  background(10,220,200); //SEGUNDA MODIFICACION
+>>>>>>> fotos
   for(int i=0;i<globos.size();i++)
   {
     globos.get(i).update();
