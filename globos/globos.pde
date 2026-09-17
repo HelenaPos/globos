@@ -35,7 +35,7 @@ void setup()
 
 void draw() 
 {
-  background(20,200,200); //SEGUNDA MODIFICACION
+  background(60,20,200); //SEGUNDA MODIFICACION
   for(int i=0;i<globos.size();i++)
   {
     globos.get(i).update();
